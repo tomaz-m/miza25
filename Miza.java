@@ -34,7 +34,7 @@ public class Miza extends JFrame implements ActionListener {
 	 */
 	public static void main(String[] args) {
 		
-		// Izpišemo v konzolo
+		// Izpišemo v konzolo GUI
 		System.out.println("Zaganjam GUI ...");
 		
 		// Ustvarimo objekt tipa miza (kličemo konstruktor razred Miza)
