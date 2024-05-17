@@ -1,16 +1,13 @@
 /**
-* Omara.java
-*
-* Opis:
-*Izdelajte vsaj en vmesnik ali abstraktni razred, ki ga boste nato smiselno implementirali v vašem osnovnem razredu.
-* @author Tomaž Mikolaj
-* @version Vaja 34
-*/
+ * Omara.java
+ *
+ * Opis:
+ * Izdelajte vsaj en vmesnik ali abstraktni razred, ki ga boste nato smiselno implementirali v vašem osnovnem razredu.
+ * @author Tomaž Mikolaj
+ * @version Vaja 34
+ */
 
-/**
-* Javni razred za prikaz dela z razredi in objekti
-*/
-public class Omara implements InformacijeOOmari {
+public abstract class Omara implements InformacijeOOmari {
     private int steviloPolj;
     private String material;
     private boolean zaklenjena;
@@ -46,6 +43,3 @@ public class Omara implements InformacijeOOmari {
         System.out.println("Material: " + material);
     }
 }
-
-
-

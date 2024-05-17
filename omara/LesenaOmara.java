@@ -1,12 +1,12 @@
 /**
-* LesenaOmara.java
-*
-* Opis:
-* Razširite razred iz vaje 27 s še vsaj 2 dvema podrazredoma in v glavnem programu s kreiranjem objektov prikažite njuno delovanje.
-* Vsak podrazred naj ima še vsaj eno dodatno lastnost in vsaj eno dodatno metodo, ki smiselno implementira poslovno logiko podrazreda.
-* @author Tomaž Mikolaj
-* @version Vaja 30
-*/
+ * LesenaOmara.java
+ *
+ * Opis:
+ * Razširite razred iz vaje 27 s še vsaj 2 dvema podrazredoma in v glavnem programu s kreiranjem objektov prikažite njuno delovanje.
+ * Vsak podrazred naj ima še vsaj eno dodatno lastnost in vsaj eno dodatno metodo, ki smiselno implementira poslovno logiko podrazreda.
+ * @author Tomaž Mikolaj
+ * @version Vaja 30
+ */
 
 public class LesenaOmara extends Omara {
     // Dodatna lastnost
@@ -37,5 +37,3 @@ public class LesenaOmara extends Omara {
         return "Lesena omara "; // Vrne oznako objekta lesene omare
     }
 }
-
-
